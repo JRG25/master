@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -12,16 +11,16 @@
                 $num1 = $_POST['txtNum1'];
                 $num2 = $_POST['txtNum2'];
                 $r = $_POST['txtR'];
-                if (!empty($num1) && !empty($num2)){
-                if (isset($_POST['btnSuma']))
-                    $r = $num1 + $num2;
-                if (isset($_POST['btnResta']))
-                    $r = $num1 - $num2;
-                if (isset($_POST['btnProd']))
-                    $r = $num1 * $num2;
-                if (isset($_POST['btnDiv']))
-                    $r = $num1 / $num2;
-                }else{
+                if (!empty($num1) && !empty($num2)) {
+                    if (isset($_POST['btnSuma']))
+                        $r = $num1 + $num2;
+                    if (isset($_POST['btnResta']))
+                        $r = $num1 - $num2;
+                    if (isset($_POST['btnProd']))
+                        $r = $num1 * $num2;
+                    if (isset($_POST['btnDiv']))
+                        $r = $num1 / $num2;
+                }else {
                     echo '<script language="javascript">alert("Ingrese Datos")</script>';
                 }
             }
