@@ -1,0 +1,12 @@
+TAREA:
+desarrollar pagina para realizar ventas con los sgts datos:
+1. Ingresar los datos para la venta:
+    -Nombre del cliente.
+    -Nombre del producto.
+    -Precio x unidad.
+    -Cantidad vendida.
+    .Calcular y presentar:
+        -importe de compra = precio x unidad * Cantidad Vendida.
+        -importe de desc. = 5% del importe de compra cuando la cantidad vendida sea
+         por lo menos de media docena.
+        -Importe de venta = importe de compra - importe de desc.
